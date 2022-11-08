@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+   
+
+</head>
+<body>
+   <div class="page2"> 
+      <ul>
+        <li><a class="link1" href="./index1.html">Page2</a></li>
+      </ul>
+   </div>
+
+   <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Contact number</th>
+        <th>Email</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody class="Display">
+
+    </tbody>
+  </table>
+
+    <section>
+       <div class="main">
+        <div class="header-text">
+            <h1>Register</h1>
+            <p>Please fill in this form to create an account.</p>
+          </div>
+           
+         <div class="items">
+           <select class="form-itm" id="title">
+             <option value="miss">Miss</option>
+             <option value="mr">Mr</option>
+             <option value="mrs">Mrs</option>
+             <option value="others">others</option>
+           </select>
+   
+          <input type="text" placeholder="Enter your full Name" id="name" class="form-itm" required>
+   
+           <select class="form-itm" id="gender">
+           <option value="female">Female</option>
+           <option value="male">Male</option>
+           <option value="others">Others</option>
+           </select>
+   
+           <input type="tel" placeholder="Enter phone number" class="form-itm" id="phone">
+   
+           <input type="text" placeholder="Enter Email" id="email" class="form-itm" required>
+   
+           <button onclick="submitForm(event)">submit</button>
+         </div>
+       </div>
+ 
+
+          
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

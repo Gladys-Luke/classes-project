@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #125B50;
+}
+
+button{
+    
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+.user-item{
+    text-align: center;
+    width: 40%;
+    margin: 200px auto;
+    padding: 20px;
+}
+
+li{
+    list-style-type: none;
+   
+    
+}
+
+a{
+    margin: auto;
+    font-size: 30px;
+    text-decoration: none;
+    color: #0E5E6F;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 10px;
+   
+}
+
+.page1{
+    display: flex;
+    
+}
+ul{
+    margin-top: 15px;
+}
